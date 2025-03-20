@@ -1,0 +1,124 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(157, 212, 194);
+    background-image: url(psicologyy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 48px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+a{
+    color: rgb(white);
+}
+a:hover{
+    color: rgb(178, 23, 199);
+    transition: 0.3s all;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    line-height: 25px;
+    max-width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+#saiba-mais-btn{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#saiba-mais-btn:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border: 2px solid;
+    border-color: blueviolet;
+}
+
+#inscreva-se-btn{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border-color: blueviolet;
+    border: 2px solid;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid;
+    border-color: blueviolet;
+} 
+
+article{
+    height: 100%;
+    
+}
+
+
